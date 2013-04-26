@@ -2,13 +2,13 @@
 
 #### Shorter IDs = Shorter URLs
 
+## weeId.com/id/1000000 => weeId.com/id/hfQ8
+
 Light-weight PHP class that converts an integer into alphanumeric and vice versa
 
 **One-to-one** conversion with **no collisions,**  **no database,** and **no dependencies**
 
-### weeId.com/id/1000000 => weeId.com/id/hfQ8
-
-Based on a base-52 number system consisting of **case-sensitive alphanumerics**
+Base-52 number system consisting of **case-sensitive alphanumerics**
 
 **Side note**: 
 > Using only letters created some unintended words that may be offensive.
