@@ -27,6 +27,7 @@ Based on a base-52 number system consisting of **case-sensitive alphanumerics**
 ## Credit
 
 Inspired by YouTube IDs
+[http://www.youtube.com/watch?v=Vw4V_G3rwFQ] (http://www.youtube.com/watch?v=Vw4V_G3rwFQ)
 
 ## Contact
 
