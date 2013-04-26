@@ -1,11 +1,14 @@
 # weeId
-*Shorten Ids by a wee bit*
 
-Light-weight php class that converts an integer into alphanumeric and vice versa with **stand-alone php** and **no database**
+#### Shorter IDs = Shorter URLs
+
+Light-weight PHP class that converts an integer into alphanumeric and vice versa
+
+Conversion with **stand-alone php** and **no database**
 
 ### weeId.com/id/1000000 => weeId.com/id/hfQ8
 
-#### One-to-One conversion with NO collisions
+##### One-to-One conversion with NO collisions
 
 Based on a base-52 number system consisting of **case-sensitive alphanumerics**
 
@@ -15,6 +18,7 @@ Based on a base-52 number system consisting of **case-sensitive alphanumerics**
 
 ## Usage
 ```PHP
+	include ('weeId.class.php');
 	$weeId = new weeId;
 	echo $weeId->numberToWord(1000000);		//hfQ8
 	echo $weeId->wordToNumber('hfQ8');		//1000000
