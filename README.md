@@ -4,11 +4,9 @@
 
 Light-weight PHP class that converts an integer into alphanumeric and vice versa
 
-Conversion with **stand-alone php** and **no database**
+**One-to-one** conversion with **no collisions,**  **no database,** and **no dependencies**
 
 ### weeId.com/id/1000000 => weeId.com/id/hfQ8
-
-##### One-to-One conversion with NO collisions
 
 Based on a base-52 number system consisting of **case-sensitive alphanumerics**
 
@@ -27,6 +25,11 @@ Based on a base-52 number system consisting of **case-sensitive alphanumerics**
 ## Requirements
 
 - PHP
+
+##Limitations
+
+- 32-bit: 2,147,483,647
+- 64-bit: 9,000,000,000,000,000,000~
 
 ## Credit
 
