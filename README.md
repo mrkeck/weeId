@@ -1,15 +1,17 @@
 # weeId
 *Shorten Ids by a wee bit*
 
-Take weeId.com/id/1000000 to weeId.com/id/hfQ8
+Light-weight php class that converts an integer into alphanumeric and vice versa with **stand-alone php** and **no database**
 
-weeId is a php class that converts an integer into alpha-numberic and vice versa.
+### weeId.com/id/1000000 => weeId.com/id/hfQ8.
 
-One-to-One conversion with NO collisions
+#### One-to-One conversion with NO collisions
 
-Based on a base-52 number system consisting of only lowercase and uppercase letter.
-However, using letters only created some unintended words that may be offensive.
-Thus, all vowels are translated into numbers, but not numbers that look like the vowel.
+Based on a base-52 number system consisting of **case-sensitive alphanumerics**
+
+**Side note**: 
+> Using only letters created some unintended words that may be offensive.
+> Thus, all vowels are translated into numbers, but not numbers that look like the vowel.
 
 ## Usage
 ```PHP

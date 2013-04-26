@@ -1,4 +1,14 @@
 <?php 
+/*
+ * weeId : Shorten Ids by a wee bit
+ * http://github.com/mrkeck/weeId/
+ *
+ * Copyright (c) 2013 Matt Keck (http://mrkeck.com)
+ * Released under the MIT license.
+ *
+ * Inspired by Youtube IDs
+ * http://www.youtube.com/watch?v=Vw4V_G3rwFQ
+ */
 	class weeId{
 		private $vowels = "a0e1i2o3u4A5E6I7O8U9";	//Vowel to number conversion (Avoid Bad Words)
 		private function letterToDigit ($letter){	//Ascii to Number
