@@ -3,7 +3,7 @@
 
 Light-weight php class that converts an integer into alphanumeric and vice versa with **stand-alone php** and **no database**
 
-### weeId.com/id/1000000 => weeId.com/id/hfQ8.
+### weeId.com/id/1000000 => weeId.com/id/hfQ8
 
 #### One-to-One conversion with NO collisions
 
